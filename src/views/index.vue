@@ -4,7 +4,7 @@
         <div class="top">
           <el-popover placement="bottom" :width="500" trigger="click">
             <template #reference>
-              <el-button id="popover">点我选择图例</el-button>
+              <el-button type="primary" id="popover">点我选择图例</el-button>
             </template>
             <h4>#基础图形</h4>
             <el-button @click="routerto('bar')">柱状图</el-button>
